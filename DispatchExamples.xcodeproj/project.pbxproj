@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6308821400074A00549082 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6308811400074A00549082 /* Cocoa.framework */; };
+		DF63088C1400074A00549082 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF63088A1400074A00549082 /* InfoPlist.strings */; };
+		DF63088E1400074A00549082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF63088D1400074A00549082 /* main.m */; };
+		DF6308921400074A00549082 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DF6308901400074A00549082 /* Credits.rtf */; };
+		DF6308951400074A00549082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6308941400074A00549082 /* AppDelegate.m */; };
+		DF6308981400074A00549082 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6308961400074A00549082 /* MainMenu.xib */; };
+		DF63089F1400092F00549082 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF63089E1400092F00549082 /* Quartz.framework */; };
+		DF6308A214000AB300549082 /* TwitterImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6308A114000AB300549082 /* TwitterImageItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF63087D1400074A00549082 /* DispatchExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DispatchExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6308811400074A00549082 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DF6308841400074A00549082 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF6308851400074A00549082 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF6308861400074A00549082 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF6308891400074A00549082 /* DispatchExamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DispatchExamples-Info.plist"; sourceTree = "<group>"; };
+		DF63088B1400074A00549082 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF63088D1400074A00549082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF63088F1400074A00549082 /* DispatchExamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DispatchExamples-Prefix.pch"; sourceTree = "<group>"; };
+		DF6308911400074A00549082 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DF6308931400074A00549082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF6308941400074A00549082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF6308971400074A00549082 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DF63089E1400092F00549082 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		DF6308A014000AB300549082 /* TwitterImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterImageItem.h; sourceTree = "<group>"; };
+		DF6308A114000AB300549082 /* TwitterImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterImageItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF63087A1400074A00549082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF63089F1400092F00549082 /* Quartz.framework in Frameworks */,
+				DF6308821400074A00549082 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6308721400074A00549082 = {
+			isa = PBXGroup;
+			children = (
+				DF6308871400074A00549082 /* DispatchExamples */,
+				DF6308801400074A00549082 /* Frameworks */,
+				DF63087E1400074A00549082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF63087E1400074A00549082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF63087D1400074A00549082 /* DispatchExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6308801400074A00549082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF63089E1400092F00549082 /* Quartz.framework */,
+				DF6308811400074A00549082 /* Cocoa.framework */,
+				DF6308831400074A00549082 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6308831400074A00549082 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF6308841400074A00549082 /* AppKit.framework */,
+				DF6308851400074A00549082 /* CoreData.framework */,
+				DF6308861400074A00549082 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF6308871400074A00549082 /* DispatchExamples */ = {
+			isa = PBXGroup;
+			children = (
+				DF6308931400074A00549082 /* AppDelegate.h */,
+				DF6308941400074A00549082 /* AppDelegate.m */,
+				DF6308A014000AB300549082 /* TwitterImageItem.h */,
+				DF6308A114000AB300549082 /* TwitterImageItem.m */,
+				DF6308961400074A00549082 /* MainMenu.xib */,
+				DF6308881400074A00549082 /* Supporting Files */,
+			);
+			path = DispatchExamples;
+			sourceTree = "<group>";
+		};
+		DF6308881400074A00549082 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6308891400074A00549082 /* DispatchExamples-Info.plist */,
+				DF63088A1400074A00549082 /* InfoPlist.strings */,
+				DF63088D1400074A00549082 /* main.m */,
+				DF63088F1400074A00549082 /* DispatchExamples-Prefix.pch */,
+				DF6308901400074A00549082 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF63087C1400074A00549082 /* DispatchExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF63089B1400074A00549082 /* Build configuration list for PBXNativeTarget "DispatchExamples" */;
+			buildPhases = (
+				DF6308791400074A00549082 /* Sources */,
+				DF63087A1400074A00549082 /* Frameworks */,
+				DF63087B1400074A00549082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DispatchExamples;
+			productName = DispatchExamples;
+			productReference = DF63087D1400074A00549082 /* DispatchExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6308741400074A00549082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DF6308771400074A00549082 /* Build configuration list for PBXProject "DispatchExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF6308721400074A00549082;
+			productRefGroup = DF63087E1400074A00549082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF63087C1400074A00549082 /* DispatchExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF63087B1400074A00549082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF63088C1400074A00549082 /* InfoPlist.strings in Resources */,
+				DF6308921400074A00549082 /* Credits.rtf in Resources */,
+				DF6308981400074A00549082 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6308791400074A00549082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF63088E1400074A00549082 /* main.m in Sources */,
+				DF6308951400074A00549082 /* AppDelegate.m in Sources */,
+				DF6308A214000AB300549082 /* TwitterImageItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF63088A1400074A00549082 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF63088B1400074A00549082 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF6308901400074A00549082 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6308911400074A00549082 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DF6308961400074A00549082 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6308971400074A00549082 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6308991400074A00549082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF63089A1400074A00549082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF63089C1400074A00549082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DispatchExamples/DispatchExamples-Prefix.pch";
+				INFOPLIST_FILE = "DispatchExamples/DispatchExamples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF63089D1400074A00549082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DispatchExamples/DispatchExamples-Prefix.pch";
+				INFOPLIST_FILE = "DispatchExamples/DispatchExamples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6308771400074A00549082 /* Build configuration list for PBXProject "DispatchExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6308991400074A00549082 /* Debug */,
+				DF63089A1400074A00549082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF63089B1400074A00549082 /* Build configuration list for PBXNativeTarget "DispatchExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF63089C1400074A00549082 /* Debug */,
+				DF63089D1400074A00549082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF6308741400074A00549082 /* Project object */;
+}
